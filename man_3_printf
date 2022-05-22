@@ -1,10 +1,19 @@
 .\" Manpage for _printf.
+<<<<<<< HEAD
 .\" Contact @julianchok25 to correct errors or typos.
 .TH man 8 "29 October 2019" "1.0" "_printf man page"
 .SH NAME
 _printf
 .SH SYNOPSIS
 #include "holberton.h"
+=======
+.\" Contact @ronald to correct errors or typos.
+.TH man 8 "22 May 2022” "1.0" "_printf man page"
+.SH NAME
+_printf
+.SH SYNOPSIS
+#include “main.h”
+>>>>>>> 0216b83c31aa3886079c1d75fd8e9e72a362409c
 
 #include <stdio.h>
 
@@ -62,7 +71,11 @@ an optional precision and an optional length modifier.
 .SH EXAMPLES
 Use _printf to print a string with variables of different types
 
+<<<<<<< HEAD
 #include "holberton.h"
+=======
+#include “main.h"
+>>>>>>> 0216b83c31aa3886079c1d75fd8e9e72a362409c
 
 	  int main (void)
 
@@ -79,3 +92,8 @@ Use _printf to print a string with variables of different types
 printf , scanf
 .SH BUGS
 No known bugs.
+<<<<<<< HEAD
+=======
+.SH AUTHOR
+Ronald Karangwa - Mukwiza Tresor
+>>>>>>> 0216b83c31aa3886079c1d75fd8e9e72a362409c
